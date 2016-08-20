@@ -57,4 +57,24 @@ h2 a:hover {
   width: 450px;
   height: 280px;
   float: left;
+  visibility: hidden;
+}
+
+.row {
+  margin-bottom: 12px;
+}
+
+.letter {
+  display: inline-block;
+  margin: 0 4px 0 4px;
+  padding: 8px 5px 8px 5px;
+  border: 2px solid #ffffff;
+  width: 30px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.letter:hover {
+  color: orange;
+  border-color: orange;
 }
