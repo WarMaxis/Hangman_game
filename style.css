@@ -17,10 +17,35 @@ h2 {
   font-size: 14px;
 }
 
+h2 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: orange;
+}
+
+#start-game {
+  color: #ffffff;
+  margin-top: 30px;
+  width: 120px;
+  height: 40px;
+  background: none;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+
+#start-game:hover {
+  border-color: orange;
+  color: orange;
+}
+
 #game-word {
   font-size: 48px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 65px;
 }
 
 .container {
