@@ -1,0 +1,35 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+#game-word {
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#game-progress, #game-keyboard {
+  width: 450px;
+  height: 280px;
+  float: left;
+}
