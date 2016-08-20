@@ -32,3 +32,7 @@ startButton.onclick = function getWord() {
 
   document.getElementById('game-word').innerHTML = hiddenWord;
 };
+
+function whatLetter(i) {
+  console.log(i);
+}
