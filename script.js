@@ -1,13 +1,14 @@
 var startButton = document.getElementById('start-game');
 var gameWord;
 
+var hiddenWord = "";
+
 // Pobranie hasła po kliknięciu w przycisk Start
 startButton.onclick = function getWord() {
   gameWord = prompt("Wpisz hasło do odgadnięcia:");
   gameWord = gameWord.toUpperCase();
 
   var length = gameWord.length;
-  var hiddenWord = "";
 
   if (gameWord.length == 0) {
     alert("Wpisz hasło!");
@@ -33,6 +34,15 @@ startButton.onclick = function getWord() {
   document.getElementById('game-word').innerHTML = hiddenWord;
 };
 
-function whatLetter(i) {
-  console.log(i);
-}
+function whatLetter(letter) {
+  var length = gameWord.length;
+  for (i = 0; i < length; i++) {
+    var arrayFromWord = hiddenWord.split("");
+    if (gameWord.charAt(i) == letter) {
+      var trueWord = arrayFromWord[i].replace(/-/g , letter);
+      arrayFromWord[i] = trueWord;
+    }
+  };
+  var realWord = arrayFromWord.toString();
+  console.log(realWord);
+};
