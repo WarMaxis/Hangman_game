@@ -4,7 +4,7 @@ Simple hangman game written in JavaScript.
 The idea and graphics is from __[Mirosław Zelent](http://miroslawzelent.pl/)__ JavaScript course on YouTube.
 __Project will be continued, stay tune! ;-)__
 
-Check this on __[https://warmaxis.github.io/Wheel_of_fortune_in_html/](https://warmaxis.github.io/Wheel_of_fortune_in_html/)__
+Check this on __[https://warmaxis.github.io/hangman_game/](https://warmaxis.github.io/hangman_game/)__
 
 Coded by __[Michał Milanowski](https://www.linkedin.com/in/michalmilanowski/)__
 
